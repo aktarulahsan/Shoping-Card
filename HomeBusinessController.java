@@ -44,4 +44,5 @@ public class HomeBusinessController {
 	public Response getAll(@RequestBody(required = false) String reqObj) {
 		return homeBusinessService.list(reqObj);
 	}
+	
 }
